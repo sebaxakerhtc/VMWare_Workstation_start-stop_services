@@ -22,7 +22,7 @@ Start-Stop_VMWare.bat (Run as Administrator)
 
     :start
     echo.
-	  net start "VMware Workstation Server"
+    net start "VMware Workstation Server"
     net start "VMware Authorization Service"
     net start "VMware NAT Service"
     net start "VMware DHCP Service"
